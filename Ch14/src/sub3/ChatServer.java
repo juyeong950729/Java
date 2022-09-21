@@ -8,6 +8,8 @@ import java.net.Socket;
  * 이름 : 조주영
  * 내용 : 채팅 프로그램 실습하기
  * 
+ * 실행방법
+ * 	 java  -cp Mychatting.jar sub3.ChatClient
  */
 public class ChatServer {
 	
