@@ -1,5 +1,6 @@
 package etc;
 
+import java.security.DrbgParameters.NextBytes;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -15,17 +16,25 @@ public class _1550 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		int sum = 0;
+		int i = 0;
 		String num1 = sc.next();
-		List<Integer> arr1 = new ArrayList<>();
+		int[] arr1 = new int[6];
 		
-		arr1.add((int) num1.charAt(0));
-		arr1.add((int) num1.charAt(1));
-		arr1.add((int) num1.charAt(2));
-		arr1.add((int) num1.charAt(3));
-		arr1.add((int) num1.charAt(4));
-		arr1.add((int) num1.charAt(5));
+		for (i=0; i<=6; i++) {
+			if (num1.charAt(i) <= 0) {
+				break;
+			}
+			arr1[i] = num1.charAt(i);
+		}
 		
 		System.out.println(arr1);
+		
+		for (int j=0; j<=arr1.length; j++) {
+			if (arr1[j] >= 65) {
+				arr1[i] = arr1[j]-55;
+			}
+		}
 		
 		
 		
