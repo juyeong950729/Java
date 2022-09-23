@@ -17,9 +17,9 @@ public class _04 {
 				System.out.print("☆");
 			} for (b=0; b<a*2+1; b++) {
 				System.out.print("★");
-			} for (b=3; b>a; b--) {
+			  } for (b=3; b>a; b--) {
 				System.out.print("☆");
-			}System.out.print("\n");
+			    }System.out.print("\n");
 			
 		} 
 		

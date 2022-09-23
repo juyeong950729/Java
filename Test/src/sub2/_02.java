@@ -21,7 +21,7 @@ public class _02 {
 				System.out.print(" ");
 			} for (int b=0; b<a+1; b++) {
 				System.out.print("*");
-			} System.out.print("\n");
+			  } System.out.print("\n");
 		}
 		
 		sc.close();
