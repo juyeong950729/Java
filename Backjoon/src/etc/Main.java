@@ -1,15 +1,23 @@
 package etc;
 
+import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
 		
-		System.out.println("SHIP NAME      CLASS          DEPLOYMENT IN SERVICE");
-		System.out.println("N2 Bomber      Heavy Fighter  Limited    21");
-		System.out.println("J-Type 327     Light Combat   Unlimited  1");
-		System.out.println("NX Cruiser     Medium Fighter Limited    18");
-		System.out.println("N1 Starfighter Medium Fighter Unlimited  25");
-		System.out.println("Royal Cruiser  Light Combat   Limited    4");
+		Scanner sc = new Scanner(System.in);
+		
+		int num1 = sc.nextInt();
+		String num2 = sc.next();
+		
+		int sum1 = 0;
+		
+		
+		for (int i=0; i<num1; i++) {
+			sum1 += 
+		}
+		
+		
 	}
 
 }
