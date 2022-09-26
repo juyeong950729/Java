@@ -7,17 +7,13 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int num1 = sc.nextInt();
-		String num2 = sc.next();
+		int t = sc.nextInt();
 		
-		int sum1 = 0;
-		
-		
-		for (int i=0; i<num1; i++) {
-			sum1 += 
+		for (int i=1; i<=t; i++) {
+			int n = sc.nextInt();
+			long n1 = n*n;
+			System.out.println(n1);
 		}
-		
-		
 	}
 
 }
