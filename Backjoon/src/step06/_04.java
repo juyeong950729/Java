@@ -18,8 +18,10 @@ public class _04 {
 		for (int i=1; i<=t; i++) {
 			int r = sc.nextInt();
 			String s = sc.next();
-			for (int j=0; j<=r; j++) {
+			for (int j=0; j<s.length(); j++) {
+				for (int k=1; k<=r; k++) {
 					System.out.print(s.charAt(j));
+				}
 			}
 			System.out.print("\n");
 		}

@@ -14,13 +14,11 @@ public class _02 {
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
-		int[] arr1 = new int[n];
 		String num = sc.next();
 		int sum = 0;
 		
 		for (int i=0; i<n; i++) {
-			arr1[i] = num.charAt(i);
-			System.out.println(num.charAt(i));
+			sum += num.charAt(i) - '0';
 		}
 		
 		System.out.println(sum);
