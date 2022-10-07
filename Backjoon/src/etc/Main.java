@@ -1,16 +1,12 @@
 package etc;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
 			
-			Date date = new Date();
-			
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-			
-			System.out.println(sdf.format(date));
-		}
-
+		Scanner sc = new Scanner(System.in);
+		
+		
+	}
 }
