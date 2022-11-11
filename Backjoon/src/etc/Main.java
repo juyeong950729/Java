@@ -4,26 +4,20 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-			
+		
+		int arr1[] = new int[31];
 		Scanner sc = new Scanner(System.in);
 		
-		int n = sc.nextInt();
-		int arr1[] = new int[n];
-		
-		for (int i=0; i<n; i++) {
-			arr1[i] = sc.nextInt();
+		for (int i=1; i<29; i++) {
+			int j = sc.nextInt();
+			arr1[j] = 1;
 		}
 		
-		int v = sc.nextInt();
-		int count = 0;
-		
-		for (int j=0; j<n; j++) {
-			if (arr1[j] == v) {
-				count++;
+		for (int i=1; i<arr1.length; i++) {
+			if(arr1[i] != 1) {
+				System.out.println(i);
 			}
 		}
-		
-		System.out.println(count);
 		
 		
 	}
